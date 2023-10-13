@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bottom_border">
+
+            <ImageView
+                android:id="@+id/ivPoster"
+                android:layout_width="200sp"
+                android:layout_height="300sp"
+                android:src="@drawable/poster_sample">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Movie Name"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:paddingLeft="10sp"
+                android:id="@+id/title">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:width="80sp"
+                    android:id="@+id/rating">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="year"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:width="150sp"
+                    android:id="@+id/release">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="runTime"
+                    android:padding="10sp"
+                    android:textSize="20sp"
+                    android:width="120sp"
+                    android:id="@+id/runTime">
+                </TextView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/bottom_border" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Director "
+                    android:padding="10sp"
+                    android:textSize="15sp"
+                    android:width="80sp"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textSize="15sp"
+                    android:text="페이튼 리드"
+                    android:id="@+id/director">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cast "
+                    android:padding="10sp"
+                    android:textSize="15sp"
+                    android:width="80sp"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:textSize="12sp"
+                    android:text="Paul Ruad,"
+                    android:id="@+id/cast1">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:textSize="12sp"
+                    android:text="Paul Ruad,"
+                    android:id="@+id/cast2">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"
+                    android:textSize="12sp"
+                    android:text="Paul Ruad,"
+                    android:id="@+id/cast3">
+                </TextView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/bottom_border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Overview "
+                    android:paddingTop="10sp"
+                    android:paddingLeft="10sp"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textSize="15sp"
+                    android:text="Paul Ruad,"
+                    android:id="@+id/overview">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
